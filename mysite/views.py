@@ -6,3 +6,9 @@ def home(request):
         request,
         "home.html",
     )
+
+def ims(request):
+    return render(request, "ims.html")
+
+def lcm(request):
+    return render(request, "lcm.html")
