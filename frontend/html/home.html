@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
 </head>
 <body>
-    <h1 class="title">Bedford Dental Care</h1>
-    <button class="lcm-button">Lab Case Management</button>
-    <button class="ims-button">Inventory Management System</button>
+    <h1 class="title">Home</h1>
+    <a class="lcm-button" href="{% url 'lcm' %}">Lab Case Management</a>
+    <a class="ims-button" href="{% url 'ims' %}">Inventory Management System</a>
 
 </body>
 </html>

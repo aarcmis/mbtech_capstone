@@ -7,3 +7,14 @@ body {
 .title {
     text-align: center;
 }
+
+.lcm-button,
+.ims-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 8px;
+    color: white;
+    background-color: steelblue;
+    border-radius: 8px;
+}
